@@ -1,0 +1,21 @@
+{
+  "name": "gtksklep-mods",
+  "owner": {
+    "name": "GTKSklep"
+  },
+  "metadata": {
+    "description": "Anthropic sample mods (Blast Radius, Replay Theater) vendored from anthropics/claude-code-playground, Apache-2.0."
+  },
+  "plugins": [
+    {
+      "name": "blast-radius",
+      "source": "./blast-radius",
+      "description": "Holds risky shell commands and shows what they would change, with Proceed and Cancel buttons."
+    },
+    {
+      "name": "replay-theater",
+      "source": "./replay-theater",
+      "description": "Step through the file edits Claude made in the last turn, one diff at a time."
+    }
+  ]
+}
